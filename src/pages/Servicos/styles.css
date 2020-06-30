@@ -1,0 +1,63 @@
+#servicoTitle {
+    font-size: 110px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1C1C1C;
+    margin-bottom: 20px;
+}
+
+#atuacao {
+    color: #1C1C1C;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#divisor {
+    width: 85%;
+    margin-left: 60px;
+}
+
+#contatoBox1 {
+    width: 88%;
+    height: 100px;
+    background-color: #1C1C1C;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 77px;
+    margin-bottom: 60px;
+    border-radius: 6px;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#btnBox {
+    
+    background-color: #696969;
+    border: none; 
+    width: 280px;   
+    height: 40px;
+    padding-top: 8px;
+    padding-left: 65px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: filter 0.2s;
+    
+}
+
+
+#btnBox:hover {
+    filter: brightness(80%);
+}
+
+#btnBox a {
+    text-decoration: none;
+    color: white;
+    transition: filter 0.2s;
+}
+
+#btnBox a:hover {
+    filter: brightness(80%);
+}

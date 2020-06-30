@@ -1,0 +1,16 @@
+html {
+	scroll-behavior: smooth;
+}
+#btnTop{
+	cursor: pointer;
+	width: 60px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	height: 60px;
+	display: none;
+	z-index: 1000;
+	background-color: #54272e;
+	border-radius: 50px;
+
+}

@@ -1,0 +1,51 @@
+#headerBox {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background-color: #54272e;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logoHeaderBox {
+    width: 50%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+#logoHeaderBox img{
+    width: 60%;
+    height: 100px;
+}
+
+#linksHeaderBox {
+    width: 35%;
+    height: 120px;
+    align-items: center;
+    display: flex;
+}
+
+#menu {
+    margin-left: 40px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+#linksHeaderBox a {
+    color: white;
+    padding-right: 18px;
+    text-decoration: none;
+    font-size: 26px;
+    transition: filter 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#linksHeaderBox a:hover {
+    filter: brightness(70%);
+}
+
+
