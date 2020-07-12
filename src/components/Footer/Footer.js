@@ -39,7 +39,7 @@ export default function Footer() {
                     <h3>Fale Conosco</h3>
                     <br/>
                     <p>Rua João Fernandes da Gama<br />Rua da Ribeira, ao lado da Consul<br />Centro, CEP 48400-000<br />Ribeira do Pombal, Bahia, Brasil</p><br/>
-                    <FiMail />    
+                    <FiMail />
                     mendesemagalhaes.adv@outlook.com<br/>
                     <br/>   
                     <FaWhatsapp />
@@ -49,7 +49,7 @@ export default function Footer() {
                     75 99165.6908 
                 </div>
 
-                <div id="box3" style={{width: '500px', height: '250px'}}>
+                <div id="box3" style={{width: '100%', height: '250px'}}>
                     <Map
                         googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_MAPS_KEY}`}
                         loadingElement={ <div style={{ height: "100%" }} /> }
@@ -57,9 +57,7 @@ export default function Footer() {
                         mapElement={ <div style={{ height: "100%" }} /> }
                     />
                 </div>
-
             </div>
-
         </footer>
     );
 }

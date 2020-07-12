@@ -4,7 +4,7 @@
 }
 
 #homeBox {
-    max-width: 1024px;
+    max-width: 70%;
     height: 550px;
     display: flex;
     align-items: center;
@@ -12,11 +12,11 @@
     border: 1px solid #dcdce6;
     border-radius: 6px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
-    margin-left: 11%;
+    margin-left: 15%;
 }
 
 #sectionBox {
-    padding-left: 50px;
+    padding-left: 3%;
 }
 
 #sectionBox p {
@@ -25,26 +25,21 @@
     padding-top: 10px;
 }
 
-#a {
-    margin-top: 30px;
-    margin-left: 92px;
-}
-
-#b {
-    margin-left: 44px;
+#divP {
+    text-align: center;
 }
 
 #sectionBox img {
     max-width:200px;
     max-height:150px;
     margin-top: 80px;
-    margin-left: 120px;
+    margin-left: 25%;
 }
 
 #formContainer {
     display: flexbox;
-    margin-top: 90px;
-    padding-right: 50px;
+    margin-top: 10%;
+    padding-right: 2%;
 }
 
 #formContainer input, textarea {
@@ -94,7 +89,7 @@
 
 .grid-container {
     max-width: 1200px;
-    margin-left: 55px;
+    margin-left: 5%;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 5px;
@@ -117,4 +112,31 @@
 
 #labelAreas {
     font-family: 'Times New Roman', Times, serif;
+}
+
+@media(max-width: 1040px) {
+    #homeBox {
+        display: block;
+        text-align: center;
+        height: 100%;
+        padding-bottom: 4%;
+    }
+
+    #sectionBox img {
+        margin-left: 0%;
+    }
+
+    #sectionBox {
+        padding-left: 0%;
+    }
+
+    #formContainer {
+        padding-top: 0%;
+    }
+}
+
+@media(max-width: 800px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
 }

@@ -2,8 +2,9 @@
     background-color: #1C1C1C;
     display: flex;
     padding-top: 30px;
-    height: 300px;
+    height: 100%;
     bottom:0;
+    padding-bottom: 3%;
 }
 
 #box1 {
@@ -43,5 +44,26 @@ a#link1 {
 }
 
 #box3 {
-    margin-left: 50px;
+    margin-left: 6%;
+    margin-bottom: 2%;
+} 
+
+@media(max-width: 1000px) {
+    #footerBox {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #box2 {
+        padding-top: 1.5%;
+        margin-bottom: 1.5%;
+    }
+
+    #box3 {
+        margin-left: 0;
+        padding-bottom: 2%;
+        text-align: center;        
+    }
 }

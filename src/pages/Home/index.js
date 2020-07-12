@@ -93,9 +93,12 @@ export default function Home() {
                 
                 <div id="sectionBox">
                     <img src={Image} alt="LogoMM"/>
-                    <p id='a'>Insira os seus dados</p>
-                    <p id='b'>Digite a mensagem desejada</p>
-                    <p id='c'>Retornaremos o mais breve possivel.</p>
+                    <div id="divP">
+                        <p id='a'>Insira os seus dados</p>
+                        <p id='b'>Digite a mensagem desejada</p>
+                        <p id='c'>Retornaremos o mais breve possivel.</p>
+                    </div>
+                    
                 </div>
                 <div id="formContainer">
                     <form onSubmit={handleEmail} method="post">
