@@ -28,9 +28,13 @@ export default function Sobre() {
                             <p>Constituído com muita seriedade, ética, organização, profissionalismo e compromisso com a justiça, o escritório Mendes e Magalhães Advocacia e Consultoria Jurídica presta serviços voltados para pessoas físicas e pessoas jurídicas, públicas ou privadas, notadamente sindicatos, prefeituras, dentre outros órgãos e entidades de extrema relevância.</p>
                             <br/>
                             <p>Com vasta experiência no estudo e aplicação do direito em vários dos seus ramos, nosso escritório conta com estrutura tecnológica de grande operacionalidade, estando devidamente aparelhado e estruturado de acordo com as melhores orientações normativas, buscando oferecer seus serviços com a máxima excelência.</p>
-                        </div>                                              
+                        </div>
+                                                                   
+                    </div>
+                    <div id="div2">
+                        <br/>
+                        <p id="p1">O escritório tem como norte a dedicação e a qualidade não só na prestação dos serviços, mas, também, no tratamento dispensado aos nossos clientes, buscando trazer informações de forma clara, coerente e verdadeira. O escritório Mendes e Magalhães Advocacia e Consultoria Jurídica também busca estar sempre atualizado às dinâmicas jurisprudenciais brasileiras, buscando, com planejamento e organização, as melhores soluções jurídicas para os mais variados casos a que são submetidos. </p> 
                     </div>                    
-                    <p id="p1">O escritório tem como norte a dedicação e a qualidade não só na prestação dos serviços, mas, também, no tratamento dispensado aos nossos clientes, buscando trazer informações de forma clara, coerente e verdadeira. O escritório Mendes e Magalhães Advocacia e Consultoria Jurídica também busca estar sempre atualizado às dinâmicas jurisprudenciais brasileiras, buscando, com planejamento e organização, as melhores soluções jurídicas para os mais variados casos a que são submetidos. </p>
                     <div id="propriedades">
                         <div>
                             <h1>Missão</h1>
@@ -53,25 +57,28 @@ export default function Sobre() {
                         <div>
                             <h3>MATHEUS CAIRO PEREIRA MAGALHÃES</h3>
                             <a href="mailto:mendesemagalhaes.adv@outlook.com" target="_blanc">mendesemagalhaes.adv@outlook.com</a>
-                            <hr/>
+                            
                             <br/>
                             <p>Formado em Direito pela Universidade AGES (UNIAGES).<br/>Advogado inscrito na OAB-BA sob o nº 62.524</p>
+                            <hr/>
                         </div>
 
                         <div>
                             <h3>BRENDA MENDES RIBEIRO</h3>
                             <a href="mailto:mendesemagalhaes.adv@outlook.com" target="_blanc">mendesemagalhaes.adv@outlook.com</a>
-                            <hr/>
+                            
                             <br/>
                             <p>Formada em Direito pela Universidade AGES (UNIAGES).<br/>Advogado inscrito na OAB-BA sob o nº 60.645</p>
+                            <hr/>
                         </div>
 
                         <div>
                             <h3>LARA LORRANE ARAÚJO SOUZA</h3>
                             <a href="mailto:mendesemagalhaes.adv@outlook.com" target="_blanc">mendesemagalhaes.adv@outlook.com</a>
-                            <hr/>
+                            
                             <br/>
                             <p>Secretária do escritório Mendes e Magalhães Advocacia.<br/>Especializada em informática e secretariado.</p>
+                            <hr/>
                         </div>                     
                     </div>
                     <br/><br/><br/><br/><br/>

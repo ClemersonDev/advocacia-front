@@ -44,12 +44,16 @@
 
 #formContainer input, textarea {
     margin-top: 20px;
-    width: 300px;
+    width: 90%;
     height: 40px;
     font-size: 20px;
     border-radius: 4px;
     border: 2px solid #dcdce6;
     padding: 0 24px;
+}
+
+#formContainer textarea {
+    width: 90%;
 }
 
 #formContainer button {
@@ -136,6 +140,11 @@
 }
 
 @media(max-width: 800px) {
+    #homeBox {
+        box-shadow: none;
+        border: none;
+    }
+
     .grid-container {
         grid-template-columns: auto auto;
     }
