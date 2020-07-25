@@ -7,7 +7,7 @@ import BtnTop from '../../components/TopoButton/TopoButton';
 import ImgDireito from '../../assets/direito.png'
 import { FaFacebookSquare, FaYoutube, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import './styles.css';
-import { ToastContainer ,toast, Zoom } from 'react-toastify';
+import { ToastContainer ,toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contato() {
@@ -103,9 +103,7 @@ export default function Contato() {
                                 <input type="email" placeholder="E-mail" value={email} onChange={e => setEmail(e.target.value)}/><br/>
                                 <input placeholder="(99) 98888 8888" maxLength={11} value={phone} onKeyPress={onlynumber} onChange={e => setPhone(e.target.value)}/><br/> 
                             </div>
-                            <div id="f3">
-                                
-                            </div>
+                            
                         </div>
                         <textarea type="text" placeholder="Sua mensagem" value={msgm} onChange={e => setMsgm(e.target.value)}/><br/>
                         <button type="submit">Enviar</button>

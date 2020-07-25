@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FaAlignJustify } from 'react-icons/fa';
 import {MdHighlightOff} from 'react-icons/md';
 import logoImg from '../../assets/mmlogopronta.png';
-import logoT from '../../assets/mmlogoprontatransp.png';
 import './HeaderStyles.css';
 import '../../global.css';
 
