@@ -84,7 +84,7 @@ export default function Contato() {
             <br/><br/><br/><br/><br/><br/><br/><br/><br/>
             
             <div id="divisor1">
-                <h1 id="labelContato">CONTATO</h1>
+                <h1 id="labelContato">Contato</h1>
                 <hr/>
             </div>
             
