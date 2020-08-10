@@ -59,6 +59,8 @@ export default function Sobre() {
                             <a href="mailto:mendesemagalhaes.adv@outlook.com" target="_blanc">mendesemagalhaes.adv@outlook.com</a>
                             
                             <br/>
+                            <p>Pós-graduado em Direito Previdênciário</p>
+                            <p>Pós-graduado em Direito Constitucional</p>
                             <p>Formado em Direito pela Universidade AGES (UNIAGES).<br/>Advogado inscrito na OAB-BA sob o nº 62.524</p>
                             <hr/>
                         </div>
@@ -68,6 +70,7 @@ export default function Sobre() {
                             <a href="mailto:mendesemagalhaes.adv@outlook.com" target="_blanc">mendesemagalhaes.adv@outlook.com</a>
                             
                             <br/>
+                            <p>Pós-graduado em Direito Previdênciário</p>
                             <p>Formada em Direito pela Universidade AGES (UNIAGES).<br/>Advogado inscrito na OAB-BA sob o nº 60.645</p>
                             <hr/>
                         </div>
