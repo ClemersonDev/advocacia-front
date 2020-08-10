@@ -96,7 +96,7 @@ export default function Home() {
                     <div id="divP">
                         <p id='a'>Insira os seus dados</p>
                         <p id='b'>Digite a mensagem desejada</p>
-                        <p id='c'>Retornaremos o mais breve possivel.</p>
+                        <p id='c'>Retornaremos o mais breve possível.</p>
                     </div>
                     
                 </div>
@@ -128,7 +128,7 @@ export default function Home() {
             <div className="grid-container">
                 <div className="grid-item">
                     <img src={Icon1} alt="icon"/>
-                    <h4>Direito Previdênciário</h4>
+                    <h4>Direito Previdenciário</h4>
                     <p>Acompanhamento em pedidos administrativos e judiciais de aposentadoria por idade, aposentadoria por invalidez, auxílio doença, aposentadoria por tempo de contribuição, aposentadoria especial, auxílio-acidente, auxílio reclusão, pensão por morte, salário maternidade, benefício assistencial de prestação continuada (BPC). Nosso escritório tem atuação nacional.</p>
                 </div>
 
